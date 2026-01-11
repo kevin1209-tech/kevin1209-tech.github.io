@@ -1,7 +1,22 @@
-site_url: https://kevin1209-tech.github.io
-auth_endpoint: https://auth.decapcms.org
-
 backend:
   name: github
   repo: kevin1209-tech/kevin1209-tech.github.io
   branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "games"
+    label: "小游戏"
+    folder: "content/games"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "状态", name: "status", widget: "string", default: "进行中" }
+      - { label: "简介", name: "summary", widget: "text" }
+      - { label: "故事背景", name: "story", widget: "text" }
+      - { label: "玩法说明", name: "gameplay", widget: "text" }
+      - { label: "标签", name: "tags", widget: "list" }
+      - { label: "截图", name: "screenshots", widget: "image", required: false }
