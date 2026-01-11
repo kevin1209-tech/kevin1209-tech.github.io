@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 你的GitHub用户名/你的GitHub用户名.github.io
+  repo: kevin1209-tech.github.io
   branch: main
 
 media_folder: "images/uploads"
