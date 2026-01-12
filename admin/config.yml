@@ -3,7 +3,6 @@ backend:
   repo: kevin1209-tech/kevin1209-tech.github.io
   branch: main
   base_url: https://kevin1209-tech.github.io
-  auth_endpoint: /admin/auth.html
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
