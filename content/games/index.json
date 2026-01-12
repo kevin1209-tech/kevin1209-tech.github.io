@@ -1,14 +1,14 @@
 [
   {
     "title": "迷雾之城",
-    "summary": "一款氛围感极强的剧情解谜游戏",
+    "summary": "一款气氛极强的剧情解谜游戏",
     "tags": ["解谜", "剧情"],
-    "screenshots": "/images/uploads/fog.jpg"
+    "image": "/images/uploads/fog.jpg"
   },
   {
     "title": "天空勇者",
     "summary": "像素风动作冒险游戏",
     "tags": ["动作", "像素"],
-    "screenshots": "/images/uploads/sky.jpg"
+    "image": "/images/uploads/sky.jpg"
   }
 ]
